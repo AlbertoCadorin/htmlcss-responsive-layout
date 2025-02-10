@@ -124,15 +124,22 @@ h2{
     
 }
 
-.blue{
+.nome-icone{
+    display: none;
+    color: #000;
+}
+
+.fa-facebook{
     color: #1a77f3;
 }
 
-.azzurro{
+.fa-twitter{
     color: #009eff;
 }
 
-.rosso{
+.fa-youtube,
+.fa-pinterest,
+.fa-instagram{
     color: #e62222;
 }
 
@@ -162,6 +169,10 @@ h2{
         flex-wrap: wrap;
         gap: 30px;
     }
+
+    .icone li {
+        padding: 10px 50px;
+    }
 }
 
 /* Desktop */
@@ -190,4 +201,16 @@ h2{
         display: block;
         font-size: 12px;
     }
+
+    .nome-icone{
+        display: inline;
+        color: #000;
+        font-size: 13px;
+    }
+
+    .icone li {
+        padding: 10px;
+    }
+
+
 }
