@@ -73,6 +73,35 @@ h1{
     display: none;
 }
 
+/* link video */
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 3px 0px #e2e0e1;
+}
+
+.card-bott ul{
+    list-style: none;
+    line-height: 2;
+}
+
+h2{
+    font-size: 17px;
+    padding-bottom: 35px;
+}
+
+.card-top img {
+    max-width: 100%;
+    display: block;
+}
+
+.card-bott{
+    width: 100%;
+    padding: 20px 40px 50px;
+    background-color: #ffff;
+}
+
   /***********************
         responsive
   ***********************/
@@ -93,12 +122,38 @@ h1{
     h1{
         font-size: 30px;
     }
+
+    .card-bott ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
 }
 
 /* Desktop */
 
 @media screen and (min-width: 992px){
+    
+    main{
+        padding: 60px 280px;
+    }
+    
     h1{
-        font-size: 40px;
+        font-size: 35px;
+    }
+
+    .card{
+        flex-wrap: nowrap;
+        gap: 0;
+    }
+
+    .card-bott{
+        width: 410px;
+        padding: 20px;
+    }
+
+    .card-bott ul{
+        display: block;
+        font-size: 12px;
     }
 }
