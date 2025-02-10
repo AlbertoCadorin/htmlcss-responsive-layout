@@ -19,6 +19,10 @@
     font-optical-sizing: auto;
   }
 
+body{
+    font-family: "Montserrat", serif;
+}
+
   /**********************
         Common
   ***********************/
@@ -30,6 +34,8 @@ a{
   /**************************
         Header
   **************************/
+
+
 header{
     padding: 0 20px;
     text-align: center;
@@ -42,7 +48,30 @@ header{
     text-transform: uppercase;
 }
 
+/****************************
+        Main
+****************************/
 
+main{
+    padding: 30px 20px 70px;
+    background-color: #f6f5f3;
+}
+
+p{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+h1{
+    color: #4e3969;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.titolo-none{
+    display: none;
+}
 
   /***********************
         responsive
@@ -51,5 +80,25 @@ header{
 @media screen and (min-width: 768px) {
     header{
         text-align: left;
+    }
+
+    main{
+        padding: 60px;
+    }
+
+    .titolo-none{
+        display: inline;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 992px){
+    h1{
+        font-size: 40px;
     }
 }
