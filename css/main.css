@@ -179,6 +179,41 @@ hr{
     text-transform: none;
 }
 
+/*************************
+        Footer
+**************************/
+
+footer{
+    background-color: #7c69a4;
+    padding: 20px;
+}
+
+footer p{
+    color: #ffff;
+    font-size: 12px;
+    text-align: center;
+    text-transform: none;
+    line-height: 1.5;
+
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 12px;
+    
+}
+
+footer li{
+    padding-right: 10px;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #ffff;
+    line-height: 1.5;
+}
   /***********************
         responsive
   ***********************/
