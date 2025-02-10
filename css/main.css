@@ -35,6 +35,11 @@ ul{
     list-style: none;
 }
 
+img{
+    max-width: 100%;
+    display: block
+}
+
   /**************************
         Header
   **************************/
@@ -89,15 +94,11 @@ h1{
     line-height: 2;
 }
 
-h2{
+h3{
     font-size: 17px;
     padding-bottom: 35px;
 }
 
-.card-top img {
-    max-width: 100%;
-    display: block;
-}
 
 .card-bott{
     width: 100%;
@@ -108,7 +109,7 @@ h2{
 /* icone */
 
 .icone{
-    margin-top: 30px;
+    margin-top: 30px ;
 }
 
 .icone ul{
@@ -143,6 +144,41 @@ h2{
     color: #e62222;
 }
 
+/* publicita */
+
+.publicità{
+    display: none;
+    margin-top: 50px;
+}
+
+
+/*******************
+    seconta sezione
+*******************/
+.sottotitolo{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+hr{
+    border: 0;
+    border-bottom: 2px solid #f7972e;
+    margin: 20px 0;
+    width: 70px;
+}
+
+.testo img{
+    padding: 0 70px;
+}
+
+.testo p {
+    margin-top: 20px;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.5;
+    text-transform: none;
+}
+
   /***********************
         responsive
   ***********************/
@@ -172,6 +208,17 @@ h2{
 
     .icone li {
         padding: 10px 50px;
+    }
+
+    .publicità{
+        display: inline;  
+    }
+
+    .testo img {
+        float: left;
+        width: 30%;
+         padding: 0;
+        margin-right: 10px;
     }
 }
 
@@ -212,5 +259,8 @@ h2{
         padding: 10px;
     }
 
+    .testo img{
+        width: 25%;
+    }   
 
 }
