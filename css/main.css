@@ -27,6 +27,12 @@ body{
         Common
   ***********************/
 
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 20px 70px;
+}
+
 a{
     text-decoration: none;
 }
@@ -62,7 +68,6 @@ header{
 ****************************/
 
 main{
-    padding: 30px 20px 70px;
     background-color: #f6f5f3;
 }
 
@@ -157,7 +162,6 @@ h3{
 *******************/
 .sottotitolo{
     font-size: 25px;
-    margin-top: 30px;
 }
 
 hr{
@@ -223,8 +227,10 @@ footer a {
         text-align: left;
     }
 
-    main{
-        padding: 60px;
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
     }
 
     .titolo-none{
@@ -261,8 +267,10 @@ footer a {
 
 @media screen and (min-width: 992px){
     
-    main{
-        padding: 60px 280px;
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 40px 140px;
     }
     
     h1{
@@ -298,4 +306,12 @@ footer a {
         width: 25%;
     }   
 
+}
+
+@media screen and (min-width: 2560px){
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 80px 740px;
+    }
 }
