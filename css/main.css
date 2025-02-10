@@ -31,6 +31,10 @@ a{
     text-decoration: none;
 }
 
+ul{
+    list-style: none;
+}
+
   /**************************
         Header
   **************************/
@@ -82,7 +86,6 @@ h1{
 }
 
 .card-bott ul{
-    list-style: none;
     line-height: 2;
 }
 
@@ -100,6 +103,37 @@ h2{
     width: 100%;
     padding: 20px 40px 50px;
     background-color: #ffff;
+}
+
+/* icone */
+
+.icone{
+    margin-top: 30px;
+}
+
+.icone ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone li{
+    background-color: #ffff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px 0px #e2e0e1;
+    
+}
+
+.blue{
+    color: #1a77f3;
+}
+
+.azzurro{
+    color: #009eff;
+}
+
+.rosso{
+    color: #e62222;
 }
 
   /***********************
