@@ -1,8 +1,55 @@
 /*******************
-Reset
+    Reset
 *******************/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+.montserrat {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+  }
+
+  /**********************
+        Common
+  ***********************/
+
+a{
+    text-decoration: none;
+}
+
+  /**************************
+        Header
+  **************************/
+header{
+    padding: 0 20px;
+    text-align: center;
+}
+
+.logo{
+    color: #ff9614;
+    font-family: "Nerko One", cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+
+  /***********************
+        responsive
+  ***********************/
+
+@media screen and (min-width: 768px) {
+    header{
+        text-align: left;
+    }
 }
