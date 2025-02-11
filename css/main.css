@@ -28,7 +28,7 @@ body{
   ***********************/
 
 .container{
-    max-width: 100%;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 30px 20px 70px;
 }
@@ -61,6 +61,7 @@ header{
     font-family: "Nerko One", cursive;
     font-size: 40px;
     text-transform: uppercase;
+    text-shadow: 1px 1px 3px  #e2e0e1;
 }
 
 /****************************
@@ -192,6 +193,13 @@ footer{
     padding: 20px;
 }
 
+.flex-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 footer p{
     color: #ffff;
     font-size: 12px;
@@ -228,9 +236,7 @@ footer a {
     }
 
     .container {
-        width: 100%;
-        margin: 0 auto;
-        padding: 20px;
+        padding: 60px;
     }
 
     .titolo-none{
@@ -268,9 +274,8 @@ footer a {
 @media screen and (min-width: 992px){
     
     .container {
-        width: 100%;
-        margin: 0 auto;
-        padding: 40px 140px;
+        
+        padding: 50px 140px ;
     }
     
     h1{
@@ -289,7 +294,7 @@ footer a {
 
     .card-bott ul{
         display: block;
-        font-size: 12px;
+        font-size: 17px;
     }
 
     .nome-icone{
@@ -298,20 +303,30 @@ footer a {
         font-size: 13px;
     }
 
+    h3{
+        font-size: 23;
+    }
+
     .icone li {
         padding: 10px;
     }
 
     .testo img{
         width: 25%;
-    }   
-
-}
-
-@media screen and (min-width: 2560px){
-    .container {
-        width: 100%;
-        margin: 0 auto;
-        padding: 80px 740px;
     }
+    
+    .testo p{
+        font-size: 17px;
+    }
+    
+    .flex-footer{
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer p{
+        text-align: start;
+    }
+
 }
+
